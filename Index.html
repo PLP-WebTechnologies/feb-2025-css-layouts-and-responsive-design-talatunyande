@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Layout with Flex and Grid</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar" role="banner">
+    <div class="logo">🌐 MySite</div>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to My Responsive World</h1>
+    <p>Built with ❤️ using Flexbox and Grid. Try resizing your screen to see the magic of responsive design!</p>
+  </section>
+
+  <!-- Main Layout Area -->
+  <main class="container flex" role="main">
+    <section class="content">
+      <h2>Why Responsive Design?</h2>
+      <p>
+        Responsive design ensures your website looks great on all screen sizes—from mobile to desktop. 
+        This layout uses <strong>Flexbox</strong> by default, but you can switch to <code>grid</code> in the class for a Grid layout.
+      </p>
+    </section>
+
+    <aside class="sidebar">
+      <h2>Did You Know?</h2>
+      <p>
+        CSS Grid is perfect for two-dimensional layouts, while Flexbox excels in one-dimensional alignment.
+      </p>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <p>&copy; 2025 <strong>MySite</strong>. Designed with Flex & Grid 💪</p>
+  </footer>
+
+</body>
+</html>
